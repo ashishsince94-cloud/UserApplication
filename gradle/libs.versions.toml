@@ -19,6 +19,7 @@ composeBom = "2025.08.01"
 lifecycleRuntimeKtxVersion = "2.9.4"
 lifecycleViewmodelCompose = "2.9.4"
 loggingInterceptor = "5.1.0"
+mockk = "1.13.13"
 navigationCompose = "2.9.3"
 lifecycleViewmodelKtx = "2.9.4"
 okhttp = "5.1.0"
@@ -51,6 +52,7 @@ androidx-compose-material3 = { group = "androidx.compose.material3", name = "mat
 logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
 
